@@ -7,7 +7,7 @@
 body {
   height: 100%;
   display: flex;
-  padding: 3em;
+  padding: 4rem 8rem;
   align-items: center;
   justify-content: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -25,9 +25,8 @@ p {
   grid-template-areas:
     'daniel daniel jonathan kira'
     'jeanette patrick patrick kira';
-  grid-gap: 1.4rem;
+  grid-gap: 1rem;
   gap: 20px;
-  width: 70%;
 }
 
 .daniel {
