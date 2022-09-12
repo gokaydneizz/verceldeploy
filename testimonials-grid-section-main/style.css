@@ -153,6 +153,10 @@ p {
     flex-direction: column;
   }
 
+  .grid-item {
+    padding: 6rem;
+  }
+
   .pattern {
     width: 6rem;
   }
