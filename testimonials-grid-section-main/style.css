@@ -7,8 +7,8 @@
 body {
   height: 100%;
   display: flex;
+  padding: 3em;
   align-items: center;
-  padding: 3rem;
   justify-content: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
   background-color: hsl(210, 46%, 95%);
@@ -152,5 +152,20 @@ p {
   .grid-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .pattern {
+    width: 6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pattern {
+    width: 3rem;
   }
 }
